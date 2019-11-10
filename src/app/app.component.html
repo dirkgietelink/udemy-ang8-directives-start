@@ -24,7 +24,7 @@
             {{ even }}
           </li>
         </div>
-        <ng-template>
+        <ng-template [ngIf]="!onlyOdd">
           <div>
             <li
               class="list-group-item"
